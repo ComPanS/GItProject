@@ -1,6 +1,10 @@
 
 /* All */
 
+html {
+    height: 100%;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -11,36 +15,85 @@ p {
     font-size: 1.2em;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 /* Header */
 
 header {
-    background-color:rgb(255, 153, 241);
+    background-image: url(https://wall.bestcarmagz.net/sites/default/files/cycling-wallpapers-39370-2116609.png);
+    background-position: center center;
     height: 80px;
     width: calc(100% - 30px);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 15px;
 }
 
 .site-icon img {
     width: 7em;
-    border-radius: 20px;
+    border-radius: 100px;
     float: left;
 }
 
 #main-text {
     border: 1px solid silver;
     background-color: rgb(255, 188, 176);
-    min-width: 20em;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #main-text h1 {
     font-family: Impact, sans-serif;
     float: left;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+}
+
+/* Title */
+
+.title h2 {
+    text-align: center;
+    font-family: Courier New, monospace;
+}
+
+.title hr {
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+/* Main blocks */
+
+#content {
+    width: 80%;
+    padding: 0 10% 0 10%;
+}
+
+.block {
+    border: 1px solid silver;
+    width: 25%;
+    min-height: 20em;
+    float: left;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.block img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.block h3 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.block p {
+    margin: 0 1.2em 0 1.2em;
 }
 
 /* Footer */
@@ -50,5 +103,6 @@ footer {
     width: calc(100% - 30px);
     background-color: rgb(117, 111, 111);
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 30px;
+    float: left;
 }
