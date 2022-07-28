@@ -1,4 +1,54 @@
-body {
-    padding: 0;
+
+/* All */
+
+body{
     margin: 0;
+    padding: 0;
+    background-color: rgb(250, 244, 244);
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Header */
+
+header {
+    background-color:rgb(255, 153, 241);
+    height: 80px;
+    width: calc(100% - 30px);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.site-icon img {
+    width: 7em;
+    border-radius: 20px;
+    float: left;
+}
+
+#main-text {
+    border: 1px solid silver;
+    background-color: rgb(255, 188, 176);
+    min-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+#main-text h1 {
+    font-family: Impact, sans-serif;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+
+footer {
+    height: 60px;
+    width: calc(100% - 30px);
+    background-color: rgb(117, 111, 111);
+    padding: 15px;
+    margin-top: 20px;
 }
