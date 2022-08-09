@@ -38,8 +38,7 @@ header {
 }
 
 #main-text {
-    border: 1px solid silver;
-    background-color: rgb(255, 188, 176);
+    color: rgb(203, 71, 255);
     border-radius: 20px;
     position: absolute;
     left: 50%;
@@ -49,9 +48,10 @@ header {
 }
 
 #main-text h1 {
-    font-family: Impact, sans-serif;
+    font-family: Comic Sans MS, sans-serif;
     float: left;
     text-align: center;
+    text-shadow: 2px 2px 2px #000;
 }
 
 /* Title */
@@ -71,6 +71,7 @@ header {
 #content {
     width: 80%;
     padding: 0 10% 0 10%;
+    display: flex;
 }
 
 .block {
@@ -99,20 +100,25 @@ header {
 /* Information blocks */
 
 .information {
-    width: 60%;
+    width: 50%;
     border: 1px solid silver;
     border-radius: 10px;
     min-height: 500px;
     float: left;
+    padding: 2%;
+    margin-left: 2%;
 }
 
 .inf_img {
     width: 35%;
-    border-left: 5%;
+    margin-left: 4%;
     border-radius: 15px;
     border: 1px solid silver;
     float: left;
     min-height: 400px;
+    padding: 2%;
+    margin-right: 2%;
+
 }
 
 /* Footer */
